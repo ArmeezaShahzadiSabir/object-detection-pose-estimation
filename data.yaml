@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Harassment', 'Sitting', 'Standing', 'Talking', 'Walking']
+
+roboflow:
+  workspace: asad-raza-rtwoj
+  project: object-detection-pose-estimation
+  version: 2
+  license: CC BY 4.0
+  url: https://app.roboflow.com/asad-raza-rtwoj/object-detection-pose-estimation/2
